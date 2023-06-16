@@ -17,6 +17,14 @@
             <img src="@/assets/images/header/相机.png"/>
         </div>
     </div>
+    <div class="r-content">
+        <div class="l-content-camera">
+            <img src="@/assets/images/header/模式.png"/>
+        </div>
+        <div class="l-content-camera">
+            <img src="@/assets/images/header/时间.png"/>
+        </div>
+    </div>
   </div>
 </template>
 <script>
@@ -46,6 +54,9 @@ export default {
   padding: 0 20px;
   background-color: #000;
   height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .l-content {
   display: flex;
@@ -53,13 +64,13 @@ export default {
 }
 .l-content-user .user{
     width: 90px;
-    height: 100%;
+    height: 25px;
     object-fit: cover;
 }
 .l-content-user .user-dre{
     z-index: 100000;
     position: absolute;
-    left: 200px;
+    left: 206px;
     top: 39px;
     transform: translateZ(0.0116rem);
 }
@@ -70,13 +81,16 @@ export default {
 }
 .l-content-battery img{
     width: 90px;
-    height: 100%;
+    height: 25px;
     object-fit: cover;
 }
 .l-content-camera img{
     width: 50px;
-    height: 100%;
+    height: 25px;
     object-fit: cover;
 
+}
+.r-content{
+    display: flex;
 }
 </style>

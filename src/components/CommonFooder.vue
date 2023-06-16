@@ -20,7 +20,7 @@ export default {
 <style lang="less" scoped>
 .header-container{
     padding: 0 20px;
-    background-color: #000;
+    background-color: #fff;
     height: 60px;
     
     .r-content{

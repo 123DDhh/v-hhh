@@ -18,11 +18,11 @@ const routes = [
         redirect:'/home',//重定向
         children:[
             // 子路由
-            {path:'home',component:Home},//首页
-            {path:'user',component:User},//用户管理
-            {path:'mall',component:Mall},//商品管理
-            {path:'page1',component:pageOne},//页面1
-            {path:'page2',component:pageTwo},//页面2
+            {path:'home',component:Home},
+            {path:'user',component:User},
+            {path:'mall',component:Mall},
+            {path:'page1',component:pageOne},
+            {path:'page2',component:pageTwo},
         ]
     },
 
